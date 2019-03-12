@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100;    
+    background-image: url(/https://cdn.lifehacker.ru/wp-content/uploads/2015/09/mini.jpg);
+}
+
+html {
+    min-height: 100%;
+}
+
+.header {
+    width: 100%;
+    background-color:rgb(249, 146, 150);
+    padding: 20px;
+    color: rgb(199, 23, 111);
+    text-align: center;
+}
+
+div.header > span {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.content {
+    width: 100%;
+    background-color: rgb(245, 228, 236);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 750%;
+}
+
+.signin {
+    width: 45%;
+    max-width: 400px;
+    display: inline-block;
+    padding: 35px;
+    margin: 20px;
+    background-color: #ffa7bf;
+}
+
+.signup {
+    width: 45%;
+    max-width: 400px;
+    display: inline-block;
+    padding: 35px;
+    margin: 20px;
+    background-color: #ffa7bf;
+}
+
+.inpt {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #90056d;
+}
+
+.inpt2 {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #90056d;
+}
+
+.inpt3 {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #90056d;
+}
+
+.inpt4 {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #90056d;
+}
+
+.inpt5 {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #90056d;
+}
+
+.form_title {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    color: #dc1c3e;
+    text-align: center;
+}
+
+.form_title2 {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    color: #dc1c3e;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(243, 114, 120);
+    height: 105px;
+    text-align: center;
+    color: #50061d;
+    padding: 35px;
+}

@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100;    
+}
+
+html {
+    min-height: 100%;
+}
+
+.header {
+    width: 100%;
+    padding: 20px;
+    color: rgb(15, 136, 48);
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    display: list-item;
+    text-shadow: 0 0 20px #46eaf3;
+    background-color: #fb9e9e8a;
+}
+
+
+
+.nav_menu {
+    width: 100%;
+}
+
+.navigation {
+    width: 20%;
+    margin: 5 5 5 5;
+    padding: 5 5 5 5;
+}
+
+.nav1 {
+    font-size: 30;
+    color: #af0168;
+    padding: 20;
+    margin: 50;
+    text-shadow: 0 0 4px #dbfb4a7a;
+}
+.nav2 {
+    font-size: 30;
+    color: #af0168;
+    padding: 20;
+    margin: 50;
+    text-shadow: 0 0 4px #dbfb4a7a;
+}
+.nav3 {
+    font-size: 30;
+    color: #af0168;
+    padding: 20;
+    margin: 50;
+    text-shadow: 0 0 4px #dbfb4a7a;
+}
+.nav4 {
+    font-size: 30;
+    color: #af0168;
+    padding: 20;
+    margin: 50;
+    text-shadow: 0 0 4px #dbfb4a7a;
+}
+.nav5 {
+    font-size: 30;
+    color: #af0168;
+    padding: 20;
+    margin: 50;
+    text-shadow: 0 0 4px #dbfb4a7a;
+}
+
+.catalog {
+    color: #198400;
+    margin: 25;
+}   
+
+/* ВНУТРИ КАТАЛОГА, добавить описание здесь */
+
+.intresting {
+    color: #198400;
+    margin: 25;
+}
+
+/* ВНУТРИ "ИНТЕРЕСНОЕ", добавить описание здесь */
+
+.cont_inform {
+    width: 70%;
+}
+
+.content_1 {
+    font-size: 35;
+    color: #bf0000;
+}
+
+.them {
+    font-size: 20;
+    color: #024213;
+}
+
+.photo {
+    font-size: 30;
+    color: #a71504;
+}
+
+.footer {
+    text-align: center;
+    color: #0a1dab;
+    background-color: #c1fbbf;
+    font-size: 20;
+    background-color: #76dc9063;
+    text-shadow: 0 0 0px #9918affc;
+    padding: 0 0 10 0;
+}
+
