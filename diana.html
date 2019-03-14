@@ -4,19 +4,19 @@
         <link href="./diana.css" rel="stylesheet" />
         <title> HTML Hint</title>
     </head>
-    <body background="http://kartinki-cvetov.ru/images/oboi/cvety-oboi80.jpg"> </body>
-
     <body>
         <div class ="header">
             <span>Flowers</span>
         </div>
-
         <div class="content">
             <div class="signin"> 
                 <span class ="form_title">Sign in</span>
                 <p> <input class="inpt" type="Email adress" placeholder="Email adress"/> </p>
                 <p> <input class="inpt2" type="Password" placeholder="Password"/> </p>
-                <p> <button type="submit">Sign in</button> </p>
+                <p> <button class="button" type="submit">Sign in</button> </p>
+                <element class=".inpt:focus"></element>
+                <element class=".inpt2:focus"></element>
+                <element class=".button:hover"></element>
             </div>
 
             <form class="signup" onsubmit="altert('sign in')">
@@ -25,12 +25,13 @@
                 <p> <input class="inpt3" type="Email adress" placeholder="Email adress"/> </p>
                 <p> <input class="inpt4" type="First name" placeholder="First name"/> </p>
                 <p> <input class="inpt5" type="Surname" placeholder="Surname"/> </p>
-                <p> <button type="submit">Sign up</button> </p>
+                <p> <button class="button2" type="submit">Sign up</button> </p>
+                <element class=".button2:hover"></element>
             </form>
         </div>
         </div>
     <div class="footer">
-       <p> <span>The site "Planet" was created by order of the company "Flower's Land" in 2019</span> </p>
+       <p> <span>The site "FLOWERS" was created by order of the company "Flower's Land" in 2019</span> </p>
         <div> 
             <p>
                 Our sponsors:
